@@ -1,14 +1,14 @@
 import { Component, ViewChild, OnInit} from '@angular/core';
 import { IgxGridComponent } from 'igniteui-angular';
-import { athletesData } from '../data/athletesData';
+import { athletesData } from '../../data/athletesData';
 
 @Component({
     selector: 'app-custom-grid-paging-style-sample',
-    styleUrls: ['paging.component.scss'],
-    templateUrl: 'paging.component.html'
+    styleUrls: ['custom-grid-paging-style.component.scss'],
+    templateUrl: 'custom-grid-paging-style.component.html'
 })
 
-export class PagingComponent implements OnInit{
+export class CustomGridPagingStyleSampleComponent implements OnInit{
     @ViewChild('grid1', { static: true }) public grid1: IgxGridComponent;
     public data: any[];
 
