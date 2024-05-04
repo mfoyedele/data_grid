@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { PagingComponent, SortingComponent, FilteringComponent, EditingComponent } from './home';
 
 const routes: Routes = [
-    { path: 'grid/paging', component: PagingComponent },
+    { path: '', component: PagingComponent },
     { path: 'grid/sorting', component: SortingComponent },
     { path: 'grid/filtering', component: FilteringComponent },
     { path: 'grid/editing', component: EditingComponent },
