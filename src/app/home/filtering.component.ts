@@ -6,7 +6,7 @@ import { DATA } from '../data/nwindData';
   styleUrls: ['./filtering.component.scss'],
   templateUrl: './filtering.component.html'
 })
-export class GridFilteringStyleComponent implements OnInit {
+export class FilteringComponent implements OnInit {
     public data: any[];
 
     constructor() {
